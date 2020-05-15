@@ -42,7 +42,7 @@
 ``` shell script 
 git clone https://github.com/funnyPan/xmind-work.git
 cd xmind-work
-npm install
+npm install && npm install -g nodemon
 npm run build
 nodemon app.js
 访问 http://localhost:3333/index.html
@@ -51,6 +51,8 @@ nodemon app.js
 2. docker(推荐)
 
 docker version=19.03.8
+
+docker镜像源加速：在Registry mirrors加入http://f1361db2.m.daocloud.io，参考[https://www.daocloud.io/mirror#accelerator-doc](https://www.daocloud.io/mirror#accelerator-doc)
 
 ``` shell script
 docker build -t xmind .
