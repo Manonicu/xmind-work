@@ -52,7 +52,10 @@ nodemon app.js
 
 docker version=19.03.8
 
-docker镜像源加速：在Registry mirrors加入http://f1361db2.m.daocloud.io，参考[https://www.daocloud.io/mirror#accelerator-doc](https://www.daocloud.io/mirror#accelerator-doc)
+docker镜像源加速：在Registry mirrors加入http://f1361db2.m.daocloud.io
+
+参考[https://www.daocloud.io/mirror#accelerator-doc](https://www.daocloud.io/mirror#accelerator-doc)
+
 
 ``` shell script
 docker build -t xmind .
