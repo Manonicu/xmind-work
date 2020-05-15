@@ -1,9 +1,11 @@
 FROM alpine:latest
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
-RUN apk add --no-cache --update nodejs nodejs-npm
 ADD . /project
 WORKDIR /project
-RUN npm install -g nodemon && cd /project && npm install --registry https://registry.npm.taobao.org/
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
+RUN apk add --no-cache --update nodejs-current nodejs-npm
+RUN npm install -g nodemon --verbose && \
+    cd /project && \
+    npm install --registry https://registry.npm.taobao.org/ --verbose && \
+    npm run build
 EXPOSE 3333
-RUN npm run build
 CMD ["nodemon","app.js"]
