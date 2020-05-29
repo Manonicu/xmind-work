@@ -74,7 +74,7 @@ module.exports = [
         path: "/",
         method: "GET",
         handler: async (req, h) => {
-            return h.view("index")
+            return "xmind"
         }
     }
 ];
