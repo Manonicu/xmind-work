@@ -1,0 +1,18 @@
+
+.filter-area {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    align-items: center;
+}
+.form-group {
+    margin-bottom: 16px;
+}
+.detail-title {
+    margin: 16px 0 10px;
+}
+em {
+    font-style: normal;
+    color: #2d8cf0;
+}
+
