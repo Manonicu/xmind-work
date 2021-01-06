@@ -57,7 +57,7 @@
         "@hapi/hapi": "^20.0.1",
         "@hapi/hoek": "^9.1.0",
         "@hapi/vision": "^6.0.1",
-        "axios": "^0.20.0",
+        "axios": "^0.21.1",
         "core-js": "^3.6.5",
         "dayjs": "^1.9.3",
         "handlebars": "^4.7.6",
