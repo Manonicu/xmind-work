@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node app.js",
         "dev": "webpack-dev-server --config config/webpack.dev.config.js --color --hot",
-        "build": "webpack --config config/webpack.prod.config.js --hide-modules"
+        "build": "webpack --config config/webpack.prod.config.js"
     },
     "repository": {
         "type": "git",
