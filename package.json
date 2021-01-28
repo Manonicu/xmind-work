@@ -4,7 +4,7 @@
     "description": "https://github.com/xmindltd/hiring/blob/master/frontend-1/README.md",
     "main": "app.js",
     "scripts": {
-        "start": "nodemon app.js",
+        "start": "node app.js",
         "dev": "webpack-dev-server --config config/webpack.dev.config.js --color --hot",
         "build": "webpack --config config/webpack.prod.config.js --hide-modules"
     },
