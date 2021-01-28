@@ -1,8 +1,8 @@
 {
     "name": "xmind-work",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "https://github.com/xmindltd/hiring/blob/master/frontend-1/README.md",
-    "main": "routes/index.js",
+    "main": "app.js",
     "scripts": {
         "start": "nodemon app.js",
         "dev": "webpack-dev-server --config config/webpack.dev.config.js --color --hot",
@@ -102,5 +102,8 @@
         "trailingComma": "none",
         "requirePragma": true,
         "useTabs": true
+    },
+    "engines": {
+        "node": "14.x"
     }
 }

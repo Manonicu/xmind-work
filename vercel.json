@@ -1,0 +1,13 @@
+{
+    "version":"1.0.1",
+    "env":{},
+    "builds":[
+        {
+            "src":"app.js",
+            "use":"@vercel/node"
+        }
+    ],
+    "routes":[
+
+    ]
+}
